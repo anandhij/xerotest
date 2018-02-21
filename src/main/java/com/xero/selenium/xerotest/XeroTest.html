@@ -1,0 +1,21 @@
+<html xmlns:concordion="http://www.concordion.org/2007/concordion">
+
+    <head>
+        <link href="../../concordion.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <body>
+
+        <h1>Xero - Automated Tester Technical Test</h1>
+     
+        <br>1. Navigate to <span concordion:set="#url">https://www.xero.com</span><span concordion:execute="openUrl(#url)"></span></br>  
+        <br>2. Login with the username as <span concordion:set="#username">anandhij@gmail.com</span> and password as <span concordion:set="#password">Monday20#</span><span concordion:execute="login(#username,#password)"></span></br>  
+        <br>3. Open bank accounts menu <span concordion:execute="openBankAccounts()"></span></br>  
+        <br>4. Add bank account <span concordion:execute="addBankAccount()"></span></br>  
+     
+
+      
+    </body>
+</html>
+	
